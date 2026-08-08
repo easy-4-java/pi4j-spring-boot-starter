@@ -609,6 +609,13 @@
             <scope>test</scope>
         </dependency>
 
+        <!-- For Spring Boot Test (ApplicationContextRunner, AssertJ, MockMvc) -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+
             <!-- For JUnit Jupiter -->
             <dependency>
             <groupId>org.junit.jupiter</groupId>
