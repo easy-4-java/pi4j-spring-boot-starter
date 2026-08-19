@@ -18,6 +18,11 @@ public class Pi4jAutoConfiguration {
  
     
 	@Bean
+    /**
+     * <p>Open c v face recognition template.</p>
+     * @param properties
+     * @return the open c v face recognition template
+     */
 	public Pi4jTemplate openCVFaceRecognitionTemplate(Pi4jProperties properties) {
 		return new Pi4jTemplate(properties);
 	}

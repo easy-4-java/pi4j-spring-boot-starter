@@ -33,10 +33,18 @@ public class Pi4jProperties {
 	 */
 	private boolean enabled = false;
 	
+    /**
+     * <p>Checks if enabled.</p>
+     * @return the is enabled
+     */
 	public boolean isEnabled() {
 		return enabled;
 	}
 
+    /**
+     * <p>Sets the enabled.</p>
+     * @param enabled
+     */
 	public void setEnabled(boolean enabled) {
 		this.enabled = enabled;
 	}
