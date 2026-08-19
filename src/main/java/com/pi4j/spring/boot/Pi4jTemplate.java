@@ -23,6 +23,12 @@ import org.slf4j.LoggerFactory;
  * TODO
  * @author <a href="https://github.com/loong10k">Loong Wan</a>
  */
+/**
+ * <p>Pi4jTemplate implementation.</p>
+ *
+ * @author <a href="https://github.com/loong10k">Loong Wan</a>
+ * @since 1.0.0
+ */
 public class Pi4jTemplate {
 
 	private static final Logger logger = LoggerFactory.getLogger(Pi4jTemplate.class);

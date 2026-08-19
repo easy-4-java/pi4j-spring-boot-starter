@@ -8,6 +8,12 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @ConditionalOnProperty(prefix = Pi4jProperties.PREFIX, value = "enabled", havingValue = "true")
 @EnableConfigurationProperties({ Pi4jProperties.class })
+/**
+ * <p>Spring Boot auto-configuration for Pi4j.</p>
+ *
+ * @author <a href="https://github.com/loong10k">Loong Wan</a>
+ * @since 1.0.0
+ */
 public class Pi4jAutoConfiguration {
  
     

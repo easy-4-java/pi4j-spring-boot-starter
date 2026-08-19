@@ -18,6 +18,12 @@ package com.pi4j.spring.boot;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 @ConfigurationProperties(Pi4jProperties.PREFIX)
+/**
+ * <p>Configuration properties for Pi4j.</p>
+ *
+ * @author <a href="https://github.com/loong10k">Loong Wan</a>
+ * @since 1.0.0
+ */
 public class Pi4jProperties {
 
 	public static final String PREFIX = "pi4j";
